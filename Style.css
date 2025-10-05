@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fff5e1;
+}
+
+header{
+    background: #ff6b6b;
+    padding: 15px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero{
+    background: url() no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.hero .btn{
+    background: #ff6b6b;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section{
+    padding: 50px 20px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-item{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0,0, 0.2);
+}
+
+.menu-item img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.gallery-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery-container img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form select{
+    padding: 8px;
+    margin: 10px;
+    width: 200px;
+}
+
+form button{
+    background: #ff6b6b;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
